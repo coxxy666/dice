@@ -1,0 +1,81 @@
+body{
+    background-color: #5f5a5a3e;
+    color: #05ac5c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    justify-content: center;
+
+}
+h4{
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.dice-main-div{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    
+  
+}
+
+.item {
+    /* display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+
+}
+
+
+.dice-1a-holder,
+.dice-1b-holder,
+.dice-1c-holder,
+.dice-1d-holder,
+.dice-1e-holder,
+.dice-1f-holder {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: #1F509A;
+    border-radius: 10px;
+    box-shadow: 10px 5px 2px #417ed8;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    margin: 30px;
+}
+
+   
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: 2px solid #1F509A;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #1F509A;
+        font-size: 16px;
+        cursor: pointer;
+    }
